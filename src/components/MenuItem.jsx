@@ -31,6 +31,7 @@ const MenuItem = ({ item, index }) => {
     `;
     const Title = styled.h1`
         color: ${(props) => props.theme.color.text};
+        font-family: "Crochet";
     `;
     const ImgMenu = styled.img`
         width: 100px;
@@ -58,8 +59,8 @@ const MenuItem = ({ item, index }) => {
     `;
     const PricePlate = styled.h2`
         color: ${(props) => props.theme.color.text};
-        font-size: 20px;
-        font-family: "Roboto";
+        font-size: 25px;
+        font-family: "Crochet";
         font-weight: 100;
         text-align: center;
         margin: 10px auto;
@@ -81,7 +82,6 @@ const MenuItem = ({ item, index }) => {
         align-items: center;
         justify-content: center;
     `;
-
     const BoxMenuprice = styled.div`
         display: flex;
         flex-direction: column;
@@ -108,7 +108,7 @@ const MenuItem = ({ item, index }) => {
     return (
         <AnimatePresence exitBeforeEnter initial={false}>
             <Container onClick={handleClick}>
-                <Box flexDirection="row" width="100%">
+                <Box flexDirection="row" width="100%" justifyContent="space-around">
                     {index % 2 === 0 ? (
                         <>
                             <Title>{item.tipo}</Title>
