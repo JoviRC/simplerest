@@ -399,12 +399,42 @@ export const DataCarta: Carta = [
         idx: 8,
         platos: [
             {
+                nombre: "Cono Triple",
+                content: "",
+                precio: 3000,
+            },
+            {
+                nombre: "Cono Doble",
+                content: "",
+                precio: 2000,
+            },
+            {
+                nombre: "Cono Simple",
+                content: "",
+                precio: 1000,
+            },
+            {
+                nombre: "Waffles",
+                content: "",
+                precio: 5000,
+            },
+            {
+                nombre: "Bollería ",
+                content: "",
+                precio: 1200,
+            },
+            {
+                nombre: "Muftí",
+                content: "",
+                precio: 1500,
+            },
+            {
                 nombre: "Copa de Helado",
                 content: "",
                 precio: 4500,
             },
             {
-                nombre: "Copa de Helado Maxi",
+                nombre: "Copa Máxi",
                 content: "",
                 precio: 6500,
             },
