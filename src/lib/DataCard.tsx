@@ -118,12 +118,12 @@ export const DataCarta: Carta = [
             },
             {
                 nombre: "Churrasco Americano",
-                content: "( Carne, Tomate, Lechuga, Queso de Cabra, Oregano )",
+                content: "( Carne, Pepinillos, Huevo Frito )",
                 precio: 5500,
             },
             {
                 nombre: "Churrasco Arriero",
-                content: "( Carne, Pepinillos, Huevo Frito )",
+                content: "( Carne, Tomate, Lechuga, Queso de Cabra, Oregano )",
                 precio: 6000,
             },
             {
