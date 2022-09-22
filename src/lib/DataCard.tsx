@@ -304,24 +304,24 @@ export const DataCarta: Carta = [
             {
                 nombre: "Chorrillana",
                 content: "( Lonjas de Carne, Papas Fritas, Chorizo, Cebolla Salteada, Huevo )",
-                precio: 14000,
+                precio: 17500,
             },
             {
                 nombre: "Choriqueso",
                 content:
                     "( Lonjas de Carne, Papas Fritas, Chorizo, Cebolla Salteada, Queso Fundido )",
-                precio: 15000,
+                precio: 16500,
             },
             {
                 nombre: "Chorrillana Mixta",
                 content:
                     "( Lonjas de Carne, Pollo, Papas Fritas, Chorizo, Cebolla Salteada, Huevo )",
-                precio: 16500,
+                precio: 17500,
             },
             {
                 nombre: "Chorrillana Mongoliana",
                 content: "( Lonjas de Carne, Papas Fritas, Chorizo, Cebollin, Aji verde, Huevo )",
-                precio: 16500,
+                precio: 16000,
             },
         ],
     },
@@ -332,12 +332,12 @@ export const DataCarta: Carta = [
             {
                 nombre: "Ensalada Surtida",
                 content: "",
-                precio: 5500,
+                precio: 6500,
             },
             {
                 nombre: "Ensalada Chilena",
                 content: "",
-                precio: 5500,
+                precio: 6500,
             },
             {
                 nombre: "Acompañamientos",
@@ -354,17 +354,17 @@ export const DataCarta: Carta = [
             {
                 nombre: "Carne",
                 content: "( Carne, Tomate, Cebolla, Lechuga, Palta, AJi verde )",
-                precio: 5000,
+                precio: 6000,
             },
             {
                 nombre: "Campiñón",
                 content: "( Champiñónes, Tomate, Cebolla, Lechuga, Palta, AJi verde )",
-                precio: 5000,
+                precio: 6000,
             },
             {
                 nombre: "Pollo",
                 content: "( Pollo, Tomate, Cebolla, Lechuga, Palta, AJi verde )",
-                precio: 5000,
+                precio: 6000,
             },
         ],
     },
@@ -409,11 +409,6 @@ export const DataCarta: Carta = [
                 precio: 2000,
             },
             {
-                nombre: "Cono Simple",
-                content: "",
-                precio: 1000,
-            },
-            {
                 nombre: "Waffles",
                 content: "",
                 precio: 5000,
@@ -446,12 +441,12 @@ export const DataCarta: Carta = [
             {
                 nombre: "Cafe Helado",
                 content: "",
-                precio: 4500,
+                precio: 5000,
             },
             {
                 nombre: "Milk Shake",
                 content: "",
-                precio: 4500,
+                precio: 5000,
             },
         ],
     },
@@ -477,7 +472,7 @@ export const DataCarta: Carta = [
             {
                 nombre: "Torta",
                 content: "",
-                precio: 3000,
+                precio: 3500,
             },
         ],
     },
@@ -496,14 +491,9 @@ export const DataCarta: Carta = [
                 precio: 1500,
             },
             {
-                nombre: "Limonada",
-                content: "",
-                precio: 4000,
-            },
-            {
                 nombre: "Agua Voss",
                 content: "",
-                precio: 4000,
+                precio: 5000,
             },
             {
                 nombre: "Energetica",
@@ -518,7 +508,7 @@ export const DataCarta: Carta = [
             {
                 nombre: "Agua Voss Grande",
                 content: "",
-                precio: 5000,
+                precio: 6500,
             },
             {
                 nombre: "Té o Café",
