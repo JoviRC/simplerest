@@ -33,6 +33,11 @@ const MenuItem = ({ item, index }) => {
         color: ${(props) => props.theme.color.text};
         font-family: "Crochet";
     `;
+    const TitleTimeOpen = styled.h3`
+    color: ${(props) => props.theme.color.text};
+    font-size: small;
+    font-family: "Crochet";
+`;
     const ImgMenu = styled.img`
         width: 100px;
         height: 100px;
@@ -111,7 +116,8 @@ const MenuItem = ({ item, index }) => {
                 <Box flexDirection="row" width="100%" justifyContent="space-around">
                     {index % 2 === 0 ? (
                         <>
-                            <Title>{item.tipo}</Title>
+                            <Title>{item.tipo}
+                            </Title>
                             <ImgMenu
                                 src={`${process.env.PUBLIC_URL + `/assets/img/${item.tipo}.png`}`}
                                 style={{ backgroundSize: "cover" }}
@@ -122,7 +128,7 @@ const MenuItem = ({ item, index }) => {
                             <ImgMenu
                                 src={`${process.env.PUBLIC_URL + `/assets/img/${item.tipo}.png`}`}
                             />
-                            <Title>{item.tipo}</Title>
+                            <Title>{item.tipo} <TitleTimeOpen>{item.tipo === "Ensaladas" ? " (Disponible hasta 17:00)" : null}</TitleTimeOpen></Title>
                         </>
                     )}
                 </Box>

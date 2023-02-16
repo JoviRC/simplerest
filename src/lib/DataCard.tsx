@@ -331,7 +331,7 @@ export const DataCarta: Carta = [
         platos: [
             {
                 nombre: "Ensalada Surtida",
-                content: "",
+                content: "Disponible",
                 precio: 6500,
             },
             {
@@ -488,7 +488,7 @@ export const DataCarta: Carta = [
             {
                 nombre: "Bebida Lata",
                 content: "",
-                precio: 1500,
+                precio: 1800,
             },
             {
                 nombre: "Agua Voss",
